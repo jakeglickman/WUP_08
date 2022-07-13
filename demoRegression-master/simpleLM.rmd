@@ -64,3 +64,14 @@ summary.lm(simp)
 ```
 
 Using age to predict length was worse than using neck to predict length. This is due to the adjusted R-squared being smaller when predicting length with age and the residual standard error was larger.
+
+
+```{r}
+simp <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+Using head width to predict length was worse than using neck to predict length. This is because the adjusted R-squared was smaller when predicting length with head width and the residual standard error was larger.
+
