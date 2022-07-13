@@ -44,7 +44,7 @@ abline(simp)
 summary.lm(simp)
 ```
 
-When comparing length to weight the adjusted r-squared was less than the adjusted r-squared when comparing length and neck size. Therefor using neck size to predict length was better than using weight.
+When comparing length to weight the adjusted R-squared was less than the adjusted R-squared when comparing length and neck size. Therefor using neck size to predict length was better than using weight.
 
 
 
